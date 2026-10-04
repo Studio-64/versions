@@ -1,0 +1,11 @@
+# Latest version of each Studio 64 resource.
+# Format:  ResourceName=1.2.3 optional note shown in the buyer's console
+#
+# Publish this file in a public GitHub repository and put its raw URL in each resource's
+# version check BEFORE the escrow upload (escrowed files can't be changed afterwards).
+# Bump a line here whenever that resource's new version is released.
+#
+# S64_Notify: checked by server/version.lua (URL still empty, so the check is dormant).
+# S64_Tape: ships without a version check (decided 29/09/2026; may revisit).
+S64_Notify=0.6.0
+S64_Tape=1.0.0
